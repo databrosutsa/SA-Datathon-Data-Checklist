@@ -1,0 +1,25 @@
+Go to the CSV file then
+Change any date field to this:
+
+Any date column
+format cell
+custom
+yyyy-m-d hh:mm:ss
+then OK
+
+for interactiondate hit text to columns (under data) a few times to get yyyy-m-d format
+
+
+In IntelliJ
+
+View
+Tool Windows
+Database
+Right click on entity 
+Import data from file
+Check for errors
+Map to right columns manually 
+
+then after initial check so that it just shows null
+check insert inconvertible values as null
+
